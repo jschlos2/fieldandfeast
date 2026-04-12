@@ -225,7 +225,7 @@ footer > a:last-of-type{
 margin-left: 0.4rem;
 }
 /*MEDIA QUERY (medium)*/
-@media screen and (min-width:600px{
+@media screen and (min-width:600px) {
     header{
         padding:2.25rem 1rem 0;
     }
