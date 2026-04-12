@@ -228,7 +228,7 @@ footer > a:last-of-type{
 margin-left: 0.4rem;
 }
 /*MEDIA QUERY (medium)*/
-@media screen and (min-width:600px) {
+@media (min-width:600px) {
 main{
     max-width:900px;
     margin: 0 auto;
@@ -244,4 +244,17 @@ main{
     grid-template-columns: 1fr 1fr;
 }
     
+}
+/*MEDIA QUERY(large*/
+@media (min-width1200px) {
+    #gallery{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+/*MEDIA QUERY(xl)*/
+@media (min-width:1200px) {
+    #gallery{
+        grid-template-columns: repeat(5,1fr);
+    }
 }
