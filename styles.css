@@ -71,3 +71,18 @@ body{
     color:var(--dark-charcoal);
     line-height:1.5;
 }
+header{
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 1.5rem 1rem 0;
+}
+header img{
+    width: 110px;
+    margin:0 auto 1rem;
+}
+h1{
+    color:var(--soft-white);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
