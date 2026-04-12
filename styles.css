@@ -144,3 +144,26 @@ section h2{
     display:grid;
     gap:1rem;
 }
+
+.offercard{
+    background-color:var(--olive-green);
+    color:var(--soft-white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding:1rem;
+}
+.offercard h3{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.offercard p{
+    margin-bottom: 0.5rem;
+}
+.offercard ul{
+    margin-left: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.offercard li{
+    margin-bottom: 0.2rem;
+}
