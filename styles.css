@@ -192,3 +192,15 @@ section h2{
     border-radius: 4px;
     margin-top: 0.25rem;
 }
+#gallery > a{
+    display: block;
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-top: 0.25rem;
+}
