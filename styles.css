@@ -61,3 +61,13 @@ table {
 
 --font-main:"Playfair Display", serif;
 }
+/*GLOBAL STYLES*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--font-main);
+    background-color: var(--linen);
+    color:var(--dark-charcoal);
+    line-height:1.5;
+}
