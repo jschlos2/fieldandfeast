@@ -188,7 +188,7 @@ section h2{
     border-radius: 4px;
     margin-top: 0.25rem;
 }
-#gallery > a{
+#gallery > a {
     display: block;
     background-color: var(--olive-green);
     color: var(--soft-white);
