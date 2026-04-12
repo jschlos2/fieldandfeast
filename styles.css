@@ -200,3 +200,27 @@ section h2{
     border-radius: 4px;
     margin-top: 0.25rem;
 }
+footer{
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 3rem 1rem;
+}
+footer p{
+    color: var(--soft-white);
+    margin-bottom: 0.35rem;
+}
+footer a{
+    color: var(--champagne-gold);
+    text-decoration: none;
+    font-weight: 700;
+}
+footer p a {
+    display: inline;
+}
+footer > a{
+    display: inline-block;
+    margin-top: 1.25rem;
+}
+footer > a:last-of-type{
+margin-left: 0.4rem;
+}
