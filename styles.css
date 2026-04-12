@@ -140,6 +140,9 @@ section h2{
     display:grid;
     gap:1rem;
 }
+#offerings h2{
+    grid-column: 1/-1;
+}
 
 .offer-card{
     background-color:var(--olive-green);
@@ -234,7 +237,7 @@ main{
     grid-template-columns: 1fr 1fr;
     align-items: stretch;
 }
-.offer-card full{
+.offer-card.full{
     grid-column: 1/-1;
 }
 #gallery{
