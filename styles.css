@@ -61,7 +61,7 @@ table {
 
 --font-main:"Playfair Display", serif;
 }
-/*GLOBAL STYLES*/
+/*GLOBAL STYLES(mobile first/small)*/
 html{
     scroll-behavior: smooth;
 }
@@ -122,4 +122,15 @@ main{
 section{
     margin-bottom: 1.5rem;
     padding:0 0.25rem 1.5rem;
+}
+#about,
+#offerings,
+#gallery{
+    border-bottom: 2px solid var(--champagne-gold);
+}
+
+section h2{
+    color:var(--midnight-blue);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
 }
