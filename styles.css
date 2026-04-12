@@ -134,3 +134,13 @@ section h2{
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
+#about p,
+#gallery > p{
+    font-size:0.95rem;
+    margin-bottom: 1rem;
+}
+
+#offerings{
+    display:grid;
+    gap:1rem;
+}
