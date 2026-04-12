@@ -167,3 +167,21 @@ section h2{
 .offer-card li{
     margin-bottom: 0.2rem;
 }
+#gallery{
+    display:grid;
+    gap:1rem;
+}
+#gallery h2,
+#gallery > p,
+#gallery > a{
+    grid-column:1/-1;
+}
+.gallery-item{
+    background-color: var(--soft-white);
+    border-radius: var(--radius);
+    overflow:hidden;
+    box-shadow: var(--shadow);
+}
+.gallery-item img{
+    width: 100%;
+}
