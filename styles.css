@@ -224,3 +224,42 @@ footer > a{
 footer > a:last-of-type{
 margin-left: 0.4rem;
 }
+/*MEDIA QUERY (medium)*/
+@media screen and (min-width:600px{
+    header{
+        padding:2.25rem 1rem 0;
+    }
+    header img{
+        width:150px;
+    }
+    h1{
+        font-size:4.25rem;
+    }
+    header > p{
+        font-size: 1.25rem;
+    }
+    nav a{
+        font-size: 1.25rem;
+    }
+    main{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2.5rem 1.5rem 3rem;
+    }
+    section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section h2{
+        font-size:2.4rem;
+    }
+    #offerings{
+        grid-template-columns: 1fr 1fr;
+    }
+    .offer-card.full{
+        grid-column: 1/-1;
+    }
+    #gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
